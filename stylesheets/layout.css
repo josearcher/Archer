@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 2em 10vw 0em;
+  * {
+    font: var(--body-font);
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+footer {
+  padding: 1.5em 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  > nav {
+    display: flex;
+    gap: 1.5em;
+  }
+  > p {
+    margin-top: 0;
+  }
+}

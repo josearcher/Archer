@@ -1,0 +1,22 @@
+header {
+  border: 1px solid var(--terciary-color);
+}
+
+body { 
+    background-color: var(--background-color);
+}
+
+footer {
+  color: white;
+  background-color: black;
+  > nav a {
+    transition: transform 0.3s ease;
+    &:hover{
+        color: var(--terciary-color);
+        transform: scale(1.2);
+    }
+      text-decoration: none;
+      color: inherit;
+    }
+}
+

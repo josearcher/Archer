@@ -1,0 +1,14 @@
+:root{
+    /* Site theme */
+    --primary-color:#2a2d89;
+    --secondary-color:orange;
+    --terciary-color: rgb(64, 191, 233);
+    --background-color: white;
+
+    /* Fonts */
+    --heading-font: 'Denk One', sans-serif;
+    --body-font: 'Sansation', sans-serif;
+
+
+    
+}

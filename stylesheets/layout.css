@@ -3,16 +3,20 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   margin: 2em 10vw 0em;
-  * {
-    font: var(--body-font);
-  }
+}
+
+
+main{
+  margin: 0em 1.5em;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2em;
+  padding: 0em;
+  img{
+    margin-left:2em;
+    width:100px;
+    height: auto;
+  }
 }
 
 footer {
@@ -28,5 +32,17 @@ footer {
   }
   > p {
     margin-top: 0;
+  }
+}
+
+section:first-child{
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  > img{
+    width: auto;
+    height: auto;
+    max-width: 20em;
+    max-height: 20em;
   }
 }

@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="stylesheets/vars.css">
         <title>José Archer</title>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Denk+One&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
         </style>
         <script src="https://kit.fontawesome.com/1353c44cf3.js" crossorigin="anonymous" defer></script>
     </head>
@@ -19,7 +19,6 @@
     <body>
         <header>
             <img src="assets/logo.png" alt="logo">
-            <h1>Hello World</h1>
         </header>
         <main>
         <?php } ?>
@@ -28,7 +27,7 @@
         { ?>
         </main>
         <footer>
-             <p>&copy; 2025 José Archer.</p>
+            <p>&copy; 2025 José Archer.</p>
             <nav>
                 <a href="https://www.instagram.com/josearcher12/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://x.com/JosArcher3"><i class="fa-brands fa-x-twitter"></i></a>

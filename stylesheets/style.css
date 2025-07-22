@@ -2,8 +2,18 @@ header {
   border: 1px solid var(--terciary-color);
 }
 
-body { 
-    background-color: var(--background-color);
+body {
+  background-color: var(--background-color);
+  * {
+    font-family: var(--body-font);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--heading-font);
+    font-weight: 400;
+  }
 }
 
 footer {
@@ -11,12 +21,38 @@ footer {
   background-color: black;
   > nav a {
     transition: transform 0.3s ease;
-    &:hover{
-        color: var(--terciary-color);
-        transform: scale(1.2);
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+      color: var(--terciary-color);
+      transform: scale(1.2);
     }
-      text-decoration: none;
-      color: inherit;
-    }
+  }
+  p,
+  a {
+    font-size: 1.2em;
+  }
 }
 
+section:first-child {
+  img {
+    box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.2),
+    5px 5px var(--primary-color);
+  }
+  > div {
+    h1 {
+      text-shadow: 2px 2px var(--secondary-color);
+      color: white;
+      font-size: 2.5em;
+      margin-bottom: 0em;
+      margin-top: 0.5em;
+    }
+    h2 {
+      display: inline-block; 
+      border-bottom: 3px solid var(--terciary-color);
+      margin-top: 0em;
+      line-height: 1; 
+    }
+  }
+}
